@@ -2,5 +2,5 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "cd data && python main.py schedule"
+startCommand = "python main.py schedule"
 restartPolicyType = "always"
