@@ -1,6 +1,6 @@
 # Force CPU-only torch BEFORE sentence-transformers installs it
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.2.0+cpu
+torch==2.5.1+cpu
 
 # EstateMind — Python dependencies
 # Web scraping
