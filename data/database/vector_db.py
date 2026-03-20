@@ -163,7 +163,7 @@ class VectorDBHandler:
                 "values":   embedding,
                 "metadata": metadata,
             }])
-            logger.debug(f"Upserted {vector_id}")
+            logger.info(f"Upserted {vector_id}")
             return True
         except Exception as e:
             logger.error(f"Failed to upsert {listing.source_id}: {e}")
